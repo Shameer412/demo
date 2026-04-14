@@ -29,13 +29,13 @@ const QueryResolution = () => {
   ];
 
   return (
-    <div className="bg-[#0a111a] min-h-screen text-white p-8 md:p-20 font-sans">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16">
+    <div className="bg-[#0a111a] text-white py-16 md:py-24 font-sans">
+      <div className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-16 grid grid-cols-1 lg:grid-cols-12 gap-16">
 
         {/* Left Side: Header Info */}
-        <div className="lg:col-span-5 space-y-8">
+        <div className="lg:col-span-5 space-y-6 md:space-y-8">
           <div className="space-y-4">
-            <h2 className="text-4xl md:text-5xl font-bold tracking-tight leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight leading-tight">
               ACTIVE QUERY<br />RESOLUTION
             </h2>
             <div className="w-12 h-1 bg-[#39cb86]"></div>
@@ -89,7 +89,7 @@ const QueryResolution = () => {
               <div className={`overflow-hidden transition-all duration-500 ${
                 openIndex === index ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
               }`}>
-                <div className="px-16 pb-8 md:px-24">
+                <div className="px-8 pb-6 md:px-24">
                   <p className="text-[#94a3b8] leading-relaxed text-sm md:text-base border-t border-gray-700 pt-6">
                     {faq.answer}
                   </p>

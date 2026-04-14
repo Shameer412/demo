@@ -34,8 +34,8 @@ const ProtocolCards = () => {
 
   return (
     // Main Container (Image background matches)
-    <div className=" p-6 md:p-12 lg:p-16 font-sans">
-      <div className="max-w-7xl mx-auto">
+    <div className="pt-4 pb-12 md:pt-8 md:pb-20 font-sans">
+      <div className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-16">
 
         {/* Grid Container (4 columns on desktop, 1 on mobile) */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

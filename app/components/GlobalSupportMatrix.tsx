@@ -4,19 +4,19 @@ import { Search } from 'lucide-react'; // Icon library install karna zaroori hai
 const GlobalSupportMatrix = () => {
   return (
     // Main Wrapper Container
-    <div className="bg-[#020617] min-h-screen p-8 md:p-16 lg:p-24 font-sans text-[#1a1c1e]">
-      <div className="max-w-7xl mx-auto space-y-12">
+    <div className="bg-[#020617] pt-24 pb-4 md:pt-24 md:pb-8 font-sans text-[#f1f5f9]">
+      <div className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-16 space-y-12">
 
         {/* Top Section */}
         <div className="space-y-6">
 
           {/* Label: Support Infrastructure (Green text) */}
-          <p className="text-[#39cb86] text-sm md:text-base font-medium uppercase tracking-[0.15em]">
+          <p className="text-[#39cb86] text-xs md:text-base font-medium uppercase tracking-[0.15em]">
             Support Infrastructure
           </p>
 
-          {/* Heading: GLOBAL SUPPORT MATRIX. (Darker text for white background) */}
-          <h1 className="text-[#1e293b] text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black uppercase leading-tight tracking-tight">
+          {/* Heading: GLOBAL SUPPORT MATRIX. */}
+          <h1 className="text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black uppercase leading-[1.1] tracking-tight">
             GLOBAL SUPPORT<br /> MATRIX.
           </h1>
 
